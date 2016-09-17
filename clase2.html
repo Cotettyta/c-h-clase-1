@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Clase 2</title>
+</head>
+<body>
+
+	<h1>Titulo1</h1>
+	<h2>Titulo2</h2>
+	<h3>Titulo2</h3>
+	<h4>Titulo2</h4>
+	<h5>Titulo2</h5>
+<hr/>
+
+	<p> fkljdsfkljsdfkljsf, jhdfuihewf . fnonefsdfne fsfeknfine fsdfje fffn sfn md n gs dfjsndf jndfgjkrngisndfsjdnri gdnoifskfire gn</p>
+
+	<pre>
+		git status
+		git add .
+		git commint -m "bla"
+	</pre>
+
+	<p>
+		texto normal <br/>
+		<b>texto negrita</b>
+		<br/>
+		<em>Enfasis</em>
+		<br/>
+		<i>enfasis</i>
+		<br/>
+
+		<h1>Titutlo <small>Subtitulo</small></h1>
+		<br/>
+		<sub>suindice</sub>
+		texto normal
+		<sup>superindice</sup>
+		<br/>
+		<del>tachadito</del>
+		<br/>
+		<mark>Marcado</mark>
+
+	</p>
+
+	<p>
+			<em> El estudio midió solo  67 países</em>. En la clasificación general, <b>Chile</b> aparece en el número 45 entre 67 destinos, y 50 en los  lugares más fáciles para instalarse, el más bajo entre los países de <em>América</em> incluidos en la encuesta. <mark>“Es notablemente inferior a la media”, dice <i>Malte Zeeck</i>*, fundador y co-CEO de InterNations a La Tercera</mark>.
+	</p>
+		<ul>
+			<li>Item 1</li>
+			<li><b>Item 2</b></li>
+			<li>Item 3</li>
+		</ul>
+	<br/>
+
+		<ol>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+
+		</ol>	
+
+		<dl> <!--Define una lista de definiciones, es decir, una lista de términos y sus definiciones asociadas-->
+			<dt>Titulo</dt> <!--Representa un término definido por el siguiente-->
+			<dd>pagina 12, editado en 2015, autor fulano</dd>
+			<dt>libro 2</dt> <!-- Representa la definición de los terminos listados antes que él-->
+			<dd>pagina 12, editado en 2015, autor fulano</dd>
+
+
+		</dl>
+
+
+		<table border="1">
+			<colgroup>
+				<col style="background-color:"></col>
+				<col style="background-color:blue"></col>
+				<col style="background-color:red"></col>
+				<col style="background-color:yellow"></col>
+
+			</colgroup>
+		<caption>Listado de Asistencias</caption>
+			<thead>
+				<tr>
+					<td>Fecha</td>
+					<td>Nombre</td>
+					<td>Clase</td>
+					<td>Asistencia</td>
+				</tr>
+
+			</thead>			
+
+			<tbody>
+				<tr>
+					<td>2015-02-02</td>
+					<td><i>fernando</i></td>
+					<td>html</td>
+					<td><a href="#">si</a></td>
+
+				</tr>
+				<tr>
+					<td>2014-02-02</td>
+					<td>jorge</td>
+					<td>css</td>
+					<td>si</td>
+
+				</tr>
+
+			</tbody>
+			</table>
+
+		<form> <!-- AQUI EMPIEZA LAS ETIQUETAS PARA APRENDER FORMULARIOS-->
+			<fieldset> 
+				<legend> paso 1: </legend>
+				<p>
+					<label for="texto-nombre">Nombre</label>
+					<input id="text-nombre" type="text" name="nombre" placeholder="ingrese nombre">
+				</p>
+				<p>
+					<label for="Masculino">Masculino</label>
+					<input type="radio" name="sexo" id="M" value="Masculino" >
+					<label for="femenino">Femenino</label>
+					<input type="radio" name="sexo" id="F" value="Femenino">
+				</p>
+				<p>
+					<label>HTML</label>
+					<input type="checkbox" name="gusto">
+					<label>CSS</label>
+					<input type="checkbox" name="gusto">
+				</p>
+
+				<p>
+					<label for="contraseña">Contraseña:</label>
+					<input type="password" name="contraseña" placeholder="ingrese contraseña">
+				</p>
+				<p>
+					<label for="foto">foto:</label>
+					<input type="file" name="foto">
+				</p>
+				<p>
+					<label>logo</label>
+					<input type="archivo" name="archivo">
+					
+				</p>
+				<p>
+					<label>Telefono</label>
+					<input type="tel" name="tel" value="123123">
+				</p>
+
+				<p>
+					<label>Correo electronico</label>
+					<input type="email" name="enmail">
+				</p>
+
+				<p>
+					<label>Buscar</label>
+					<input type="Buscar" name="Buscar">
+				</p>
+
+				<p>
+					<label>Numero</label>
+					<input type="mumero" name="Buscar">
+				</p>
+				<p>
+					<label>Buscar</label>
+					<input type="Buscar" name="Buscar">
+				</p>
+
+				<p>
+					<label for="zona">zona</label>
+					<textarea id="superficies" name="superficies" cols="10" rows="10" placeholder="estoy seguro"></textarea>
+				</p>
+				<p>
+					<label for="area">textarea</label>
+					<textarea id="area" name="area" cols="10" rows="10" placeholder="escriba aca su comentario"></textarea>
+				</p>
+				<p>
+					<label for="paises">Paises</label>
+						<select id="paises" name="paises">
+						<option value="" >País Seleccionar</option>
+						<option value="CH">Chile</option>
+						<option value="AR">Argentina</option>
+						<option value="BR">Brasil</option>
+						</select>
+				</p>
+				<p>
+					<input type="Submit" name="grabar">
+					<input type="Reset" name="reset">
+				</p>
+
+			</fieldset>
+			
+		<fieldset>
+				<legend> Paso 2:</legend>
+		</fieldset>
+		</form> <!-- AQUI TERMINA LAS ETIQUETAS PARA APRENDER FORMULARIOS-->
+
+		<a href="http://dibujoschidos.com/wp-content/uploads/2015/12/imagenes-dibujos-para-colorear.jpg"></a>
+		<a href="htt://google.cl">
+			<img src="dibujo1.jpg"></img>
+		</a>
+
+		<audio controls>
+			<source src="caballo.mp3" type="audio/mp3">
+
+
+		<video controls>
+			<source src="conejo.mp4" type="video/mp4" />
+		
+
+
+
+
+</body>
+</html>
